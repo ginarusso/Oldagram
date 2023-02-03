@@ -1,0 +1,108 @@
+html, body {
+    margin: 10px;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    max-width: 375px;
+    margin: 0 auto;
+    /* border: 4px solid black;
+    border-radius: 10px; */
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 15px 8px 10px;
+   border-bottom: 1px solid #c6c6c6;
+}
+
+.logo {
+    width: 120px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.hero {
+    margin-top: 30px;
+    display: flex;
+}
+
+.post-avatar {
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    
+}
+
+.img-post-avatar {
+    width: 34px;
+    border-radius: 50%;
+    /* padding-left: 10px; */
+}
+
+.text-avatar {
+    padding-left: 10px;
+}
+
+.post-avatar-name {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.post-avatar-location {
+    font-size: 12px;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.social {
+   display: flex;
+   flex-direction: column;
+}
+
+.icon {
+    height: 20px;
+    padding: 10px 0px 5px 5px;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+.likes {
+    font-weight: bold;
+    font-size: 13px;
+    margin-top:5px;
+    padding-left: 6px;
+}
+
+.comments-flex {
+    display: flex;
+    padding: 10px 0 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.user {
+    font-weight: 700;
+    padding-right: 10px;
+    margin: 0;
+    padding-left: 6px;
+}
+
+.comment {
+    margin: 0;
+}
+
+
+
